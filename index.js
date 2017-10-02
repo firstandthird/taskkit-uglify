@@ -37,6 +37,12 @@ class UglifyTask extends TaskKitTask {
         [output]: results.code,
         [`${output}.map`]: results.map
       };
+
+      if (results.error) {
+        console.error(results.error);
+        return done(results.error);
+      }
+
       this.writeMany(out, done);
     });
   }
