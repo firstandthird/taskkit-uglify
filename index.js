@@ -39,7 +39,6 @@ class UglifyTask extends TaskKitTask {
       };
 
       if (results.error) {
-        console.error(results.error);
         return done(results.error);
       }
 
