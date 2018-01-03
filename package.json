@@ -23,15 +23,15 @@
   },
   "homepage": "https://github.com/firstandthird/taskkit-uglify#readme",
   "dependencies": {
-    "async": "^2.5.0",
+    "async": "^2.6.0",
     "taskkit-task": "^1.0.2",
-    "uglify-js": "^3.0.28"
+    "uglify-js": "^3.3.4"
   },
   "devDependencies": {
-    "eslint": "^4.6.1",
-    "eslint-config-firstandthird": "^4.0.0",
-    "eslint-plugin-import": "^2.7.0",
-    "tap": "^10.7.2"
+    "eslint": "^4.14.0",
+    "eslint-config-firstandthird": "^4.3.0",
+    "eslint-plugin-import": "^2.8.0",
+    "tap": "^11.0.1"
   },
   "eslintConfig": {
     "extends": "firstandthird"
